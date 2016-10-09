@@ -21,7 +21,8 @@ public class TestWorld {
 		SqlSession session = null;
 		
 		try {
-			
+
+			int a = 10;
 			session = factory.openSession();
 			
 			BookMapper mapper = session.getMapper(BookMapper.class);
