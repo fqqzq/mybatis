@@ -22,6 +22,7 @@ public class TestWorld {
 		
 		try {
 			
+			int b = 10;
 			session = factory.openSession();
 			
 			BookMapper mapper = session.getMapper(BookMapper.class);
